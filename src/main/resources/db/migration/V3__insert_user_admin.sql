@@ -1,13 +1,13 @@
 -- =====================================================
 -- INSERT: USER ADMIN
--- Usuário admin gerado para testes e desenvolvimento
+-- Usuário admin gerado para produção
 -- =====================================================
 
 INSERT INTO users (name, email, password, phone, role)
 VALUES (
-        'User Teste',
-        'user@gmail.com',
+        'Beatriz Jacob',
+        '${ADMIN_EMAIL}',
         '${ADMIN_PASS}',
-        '11909095454',
+        '11977229823',
         'ADMIN'
        );
