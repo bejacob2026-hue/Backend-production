@@ -56,10 +56,7 @@ public class SecurityConfigurations {
                                 "/auth/forgot-password",
                                 "/auth/validate-reset-token",
                                 "/auth/reset-password",
-                                "/health",
-                                "/v3/api-docs/**",
-                                "/swagger-ui.html",
-                                "/swagger-ui/**").permitAll()
+                                "/health").permitAll()
 
                        
                         .requestMatchers(HttpMethod.GET, "/services", "/services/**").permitAll()
